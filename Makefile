@@ -9,3 +9,4 @@ benchmark:
 .PHONY: doc
 doc:
 	@godoc -http=:8080
+

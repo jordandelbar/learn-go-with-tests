@@ -20,7 +20,6 @@ func greetingPrefix(language string) (prefix string) {
 	switch language {
 	case spanish:
 		prefix = spanishHelloPrefix
-
 	case french:
 		prefix = frenchHelloPrefix
 	default:

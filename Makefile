@@ -1,6 +1,6 @@
 .PHONY: test
 test:
-	@go test -v ./...
+	@go test $(if $(v),-v) ./...
 
 .PHONY: benchmark
 benchmark:
@@ -9,4 +9,3 @@ benchmark:
 .PHONY: doc
 doc:
 	@godoc -http=:8080
-

@@ -1,3 +1,3 @@
-module github.com/jordandelbar/learn-go-with-tests
+module learn_go_with_tests
 
 go 1.23.3
